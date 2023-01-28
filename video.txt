@@ -1,0 +1,5 @@
+VideoTItle = メタバースとNFTと仮想通貨のアツいコラボレーション！
+video_link = https://www.youtube.com/watch?v=nxKh21CmuZE
+channel_link = https://www.youtube.com/@XANAMetaverse
+channel_name = XANAMetaverse
+channel_username = XANAMetaverse

@@ -41,6 +41,7 @@ class Command(BaseCommand):
     def start_bot(self,i):
         while True:
             user_ = user.objects.filter(ProfileDict=i).order_by('?')[0]
+            user_ = user.objects.filter(ProfileDict=i).first()
             bot = YoutubeBot()
             try: 
                 driver = bot.get_driver(user_.email,user_.password,user_.profile,ChannelName=channel_name,VideoTItle= VideoTItle)
